@@ -11,7 +11,6 @@
 
   <body>
     <div class="page">
-      <!--HEADER START-->
       <header class="header">
         <nav class="nav">
           <img
@@ -29,10 +28,10 @@
               <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Conviértete en miembro</a>
+              <a class="nav__link" href="#membership">Conviértete en miembro</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contactos</a>
+              <a class="nav__link" href="#footer">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -58,8 +57,6 @@
           <p class="header__address">Triple Peaks, 200 Success Avenue</p>
         </div>
       </header>
-      <!--HEADER END-->
-      <!--MAIN CONTENT START-->
       <main class="content">
         <section class="staff" id="staff">
           <h2 class="staff__title">Los preferidos de nuestro staff</h2>
@@ -219,10 +216,111 @@
               />
             </div>
           </div>
-          <!-- Comienza a crear la composición aquí -->
         </section>
+        <section class="membership" id="membership">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro es muy fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Paso 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Completa el formulario de afiliación en línea o en persona.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Ven y recoge tu credencial de la biblioteca en la recepción.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Firma el envés de la tarjeta.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                ¡Disfruta de los increíbles beneficios de nuestra membresía!
+              </p>
+            </li>
+          </ul>
+        </section>
+        <footer class="footer" id="footer">
+          <section class="footer__columns">
+            <div class="footer__column">
+              <img
+                src="./images/logo_white.svg"
+                alt="Logo de la Biblioteca Triple Peaks"
+                class="footer__logo"
+              />
+            </div>
+            <div class="footer__column footer__column_content_hours">
+              <h3 class="footer__column-heading">Horario de apertura</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  Lunes a viernes: 9 a.m. — 8 p.m.
+                </li>
+                <li class="footer__list-item">
+                  Sábados y domingos: 10 a.m. — 6 p.m.
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column footer__column_content_social">
+              <h3 class="footer__column-heading">Redes sociales</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__column-link"
+                    ><img
+                      src="./images/facebook_white.svg"
+                      alt="Logo de Facebook"
+                      class="footer__social-icon"
+                    />Facebook</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__column-link"
+                    ><img
+                      src="./images/instagram_white.svg"
+                      alt="Logo de Instagram"
+                      class="footer__social-icon"
+                    />Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+          <p class="footer__copyright">&copy; 2024 Sebastian Regules</p>
+        </footer>
       </main>
-      <!--MAIN CONTENT END-->
     </div>
   </body>
 </html>
